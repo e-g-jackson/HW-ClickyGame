@@ -1,0 +1,18 @@
+body{
+    background-color: #777777;
+}
+
+.container{
+    background-color: #444444;
+    margin-left: 10%;
+    margin-right:10%;
+    width:80%
+}
+
+.pics{
+    margin: 20px;
+}
+
+.pics:hover{
+    border: #ffffff 2px solid;
+}
