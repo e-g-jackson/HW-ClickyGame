@@ -16,8 +16,6 @@ const Form = (props) => {
                         
                         click.check(parseInt(props.data.id));
                         props.onClick(event)
-                        // const containerDiv = event.target.parentElement.parentElement.parentElement;
-                        // console.log(containerDiv);
                     }
                 } 
             />
