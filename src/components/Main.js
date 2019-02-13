@@ -57,10 +57,11 @@ class Main extends Component {
         console.log(click.score)
 
         return(
-        <div className = "container">
-            <div className = "row py-3">
-                <div className = "text-left text-white col-6"><em>Try and click all 12 images without repeating yourself!</em></div>
-                <div className = "text-right text-white lead col-6">Score : {this.state.score}</div>
+        <div className = "container mb-5">
+            <br />
+            <div className = "row py-3 blockquote">
+                <div className = "text-left text-white col-6 my-auto"><em>Try and click all 12 images without repeating yourself!</em></div>
+                <div className = "text-right text-white h3 col-6"><strong>Score : {this.state.score}</strong></div>
             </div>
             <hr className = "border-white"/>
             <div className = "row">
