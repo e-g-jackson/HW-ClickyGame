@@ -17,7 +17,7 @@ const click = {
                     click.array.push(parseInt(num));
                     click.score += 1;
                     if (click.score === 12){
-                        alert("Congratulations! \nYou managed to click on all of them! \n Well done!")
+                        alert("Congratulations! \n      You managed to click on all of them! \n             Well done!")
                         click.end();
                         break
                     }
